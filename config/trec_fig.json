@@ -1,0 +1,19 @@
+{
+    "pretrained_model_name_or_path": "../pretrained_models/bert-base-uncased",
+    "dropout_rate": 0.1,
+    "exp": 3,
+    "p_threshold": 0.1,
+    "temp": 0.5,
+    "lambda_r": 0.5,
+
+    "dataset_name": "trec",
+    "train_file_path": "../data/trec/asym_20_fig.csv",
+    "eval_file_path": "../data/trec/test_fig.csv",
+    "batch_size": 12,
+    "max_sentence_len": 256,
+    
+    "seed": 1,
+    "split_num": 24,
+    "train_epochs": 6,
+    "record_path": "output/fig/trec/ratio40/trec_base_asym_20_1_test.csv"
+}

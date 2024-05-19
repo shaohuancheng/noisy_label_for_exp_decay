@@ -1,0 +1,19 @@
+{
+    "pretrained_model_name_or_path": "../pretrained_models/chinese-bert-wwm-ext",
+    "dropout_rate": 0.1,
+    "exp": 5,
+    "p_threshold": 0.1,
+    "temp": 0.5,
+    "lambda_r": 0.5,
+
+    "dataset_name": "chn",
+    "train_file_path": "../data/chn/idn_40_fig.csv",
+    "eval_file_path": "../data/chn/test_fig.csv",
+    "batch_size": 12,
+    "max_sentence_len": 256,
+    
+    "seed": 1,
+    "split_num": 24,
+    "train_epochs": 6,
+    "record_path": "output/fig/chn/ratio40/chn_base_idn_40_1_correct_trend.csv"
+}
