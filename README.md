@@ -1,5 +1,7 @@
 ## Dynamic training for handling textual label noise
 
+This repository contains the code for our paper [Dynamic Training for Handling Textual Label Noise]. (The paper will be released after publication.)
+
 ## Environment
 The used python version is 3.7.
 ```markdown
